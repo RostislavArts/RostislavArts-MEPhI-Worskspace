@@ -1,6 +1,0 @@
-while True:
-    a = input()
-    b = input()
-    c = input()
-    print(2*(b-a))
-    print(2*(c-b))
