@@ -213,7 +213,7 @@ void main(){
         max = x3;
     }
     printf("%d", max);
-} */
+}
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -236,4 +236,13 @@ void main(){
     int ylen = y2 - y1;
     float FullLen = sqrt(xlen * xlen + ylen * ylen);
     printf("%f", FullLen);
+} */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+void main(){
+    int a = 7889;
+    int * pA = &a;
+    printf("%p", pA);
 }
