@@ -29,6 +29,7 @@ ax.axline((0, 1.779), slope = -0.024, color="blue", label = 'H1 = 220mm')
 ax.axline((3.16, 1.69), (17.94, 1.22), color="grey")
 ax.axline((3.16, 1.63), (17.94, 1.38), color="grey")
 
+#misc settings
 ax.grid()
 ax.legend()
 
